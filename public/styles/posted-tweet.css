@@ -1,0 +1,58 @@
+article.posted-tweet {
+  border-radius: 10px;
+  border: 2px solid;
+  padding: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 220px;
+  }
+.posted-tweet header {
+  background-color: pink;
+  width: 100%;
+  z-index: -1;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+footer span {
+  float: left;
+  /*padding-bottom: 30px;*/
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.tweeted-content {
+  /*width: 100%;*/
+  padding: 10px;
+  border-bottom: solid;
+  border-bottom-width: thin;
+}
+header .usertag {
+  float: right;
+  padding-right: 10px;
+  padding-top: 20px;
+
+}
+.first-last-name {
+  float: left;
+  padding-left: 5px;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 2em;
+}
+header {
+  height: 75px;
+}
+
+header .profile-img {
+  height: 70px;
+  width: auto;
+  float: left;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.fa-heart {
+  float: right;
+  padding-right: 10px;
+}
+article.posted-tweet:hover .fa-heart {
+  color: #b22c2c;
+}

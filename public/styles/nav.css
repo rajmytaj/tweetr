@@ -1,0 +1,39 @@
+#nav-bar {
+  color: #e8fdff;
+  background-color: #00a087;
+  height: 80px;
+  overflow: hidden;
+  padding-left: 2em;
+  padding-right: 2em;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+#nav-bar .logo {
+  height: 80px;
+  width: 80px;
+}
+#nav-bar .header {
+  font-size: 2em;
+  vertical-align: top;
+  padding-left: 10px;
+  line-height: 200%;
+}
+button.compose {
+  border-radius: 4px;
+  padding: 10px 24px;
+  float: right;
+  font-size: 20px;
+  margin-top: 20px;
+  background-color: #77c697
+}
+button.compose:hover {
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px 24px;
+  float: right;
+  font-size: 20px;
+  margin-top: 20px;
+  background-color: #74cc97;
+}

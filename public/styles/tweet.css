@@ -1,0 +1,23 @@
+.tweet-container {
+  border-radius: 10px;
+  border: 2px solid;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  /*width:auto;*/
+  /*height: auto;*/
+  }
+
+.compose-tweet-hr {
+  margin-top: -20px;
+}
+.counter {
+  float: right;
+}
+
+.tweet-text-area {
+  width: 100%;
+}
+.over-character-count {
+  color: red;
+}
