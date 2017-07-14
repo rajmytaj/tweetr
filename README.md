@@ -4,12 +4,13 @@ Tweeter is a simple, single-page Twitter clone. Tweeter was built on Node, Expre
 
 ## Screenshots 
 
-!["screenshot description"](#)
-!["screenshot description"](#)
+!["Compose Tweet"](https://github.com/rajmytaj/tweetr/blob/master/docs/compose.png)
+!["tweetr Feed"](https://github.com/rajmytaj/tweetr/blob/master/docs/tweets.png)
 
 ## Cool Features
 - asynchronously updates tweets in feed 
 - updates time passed since post 
+- live tweet character counter
 
 ## Getting Started
 
