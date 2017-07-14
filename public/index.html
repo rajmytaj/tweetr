@@ -19,9 +19,9 @@
 
     <!-- External JS -->
     <script type="text/javascript" src="/vendor/jquery-2.2.3.min.js"></script>
-    <script type="text/javascript" src="/vendor/jquery.timeago.js"></script>
 
     <!-- App JS -->
+    <script src="/vendor/moment.js"></script>
     <script type="text/javascript" src="/scripts/app.js"></script>
 
     <!-- composer-char-counter JS  -->
@@ -40,10 +40,10 @@
     <!-- Page-specific (main) content here -->
     <main class="container">
       <div class="tweet-container">
-        <h2>type here fools</h2>
+        <h2>Compose tweet</h2>
         <hr class="compose-tweet-hr" size="10" />
         <form action="/tweets" method="POST">
-          <textarea class="tweet-text-area" name="text" placeholder="What are you looking at?"></textarea>
+          <textarea class="tweet-text-area" name="text" placeholder="Whats on your mind?"></textarea>
           <div>
             <input class="submit-tweet" type="submit" value="Tweet" />
             <span class="counter">140</span>

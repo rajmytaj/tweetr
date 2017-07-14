@@ -10,6 +10,7 @@
 $(document).ready(function (){
 
   function createTweetElement (obj) {
+    var timeSince = moment(`${obj.created_at}`, "x").fromNow();
     const html = `
     <article class="posted-tweet">
       <header class="tweet-header">
@@ -20,8 +21,10 @@ $(document).ready(function (){
 
       <p class="tweeted-content">${obj.content.text}</p>
       <footer>
-        <span class="time-since-post">${obj.created_at}</span>
+        <span class="time-since-post">${timeSince}</span>
         <i class="fa fa-heart" aria-hidden="true"></i>
+        <i class="fa fa-share-alt" aria-hidden="true"></i>
+        <i class="fa fa-flag" aria-hidden="true"></i>
       </footer>
     </article>
   `;

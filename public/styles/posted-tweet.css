@@ -53,6 +53,21 @@ header .profile-img {
   float: right;
   padding-right: 10px;
 }
-article.posted-tweet:hover .fa-heart {
+.fa-flag {
+  float: right;
+  padding-right: 10px;  
+}
+.fa-share-alt {
+  float: right;
+  padding-right: 10px;  
+}
+
+.fa-heart:hover {
   color: #b22c2c;
+}
+.fa-flag:hover {
+  color: blue;
+}
+.fa-share-alt:hover {
+  color: orange;
 }
