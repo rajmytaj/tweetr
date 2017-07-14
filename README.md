@@ -10,6 +10,7 @@ Tweeter is a simple, single-page Twitter clone. Tweeter was built on Node, Expre
 ## Cool Features
 - asynchronously updates tweets in feed 
 - updates time passed since post 
+- live tweet character counter
 
 ## Getting Started
 
